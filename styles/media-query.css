@@ -25,7 +25,7 @@
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
+
     section#login {
         width: 950px;
     }
@@ -33,11 +33,19 @@
     section#login > div#image {
         width: 50%;
         height: 100%;
-        float: left;
+        float: right;
     }
 
     section#login > div#form {
         width: 50%;
-        float: right;
+        float: left;
+    }
+
+    div#form > h1 {
+        font-size: 2em;
+    }
+    
+    div#form > p {
+        font-size: 1.2em;
     }
 }
